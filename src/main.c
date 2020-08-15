@@ -14,7 +14,7 @@
 //init variaveis----------------------------------------------------------------
 int numero_elementos; //numero de elementos a ser processado
 int numero_primos; //numero de primos achados entre os elementos
-long long unsigned int lista[MAX_NUM]; //lista contendo elementos
+long long unsigned int lista[MAX_NUM]; //lista contendo elementos com primos
 pthread_mutex_t trava; //mutex limitando escrita na memoria compartilhada para
 //uma thread por vez
 //------------------------------------------------------------------------------
